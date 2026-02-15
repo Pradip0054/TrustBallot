@@ -10,14 +10,6 @@ In traditional voting systems, concerns such as vote tampering, lack of transpar
 - Transparency: Provides real-time vote verification and a publicly verifiable ledger.  
 - Fairness: Enforces a strict one-person-one-vote system.  
 - Social Impact: Promotes digital democracy and builds trust in modern election systems using secure technology.
-
-
-
-
-
-
-
-
 # Core Features
 - Secure User Authentication  
 - One-Person-One-Vote System  
@@ -44,3 +36,34 @@ This project is built using the following technologies:
 - Proof-of-Integrity Mechanism
 ### Database
 - SQLite (For voter & admin management)
+## Project Structure
+
+```
+TrustBallot/
+│
+├── backend/
+│   ├── main.py              # FastAPI main application
+│   ├── blockchain.py        # Custom blockchain logic
+│   ├── models.py            # SQLite database models
+│   ├── database.py          # Database connection setup
+│   ├── requirements.txt     # Backend dependencies
+│   └── venv/                # (Ignored - Not pushed to GitHub)
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   └── manifest.json
+│   │
+│   ├── src/
+│   │   ├── App.js
+│   │   ├── index.js
+│   │   └── components/
+│   │
+│   ├── package.json
+│   ├── package-lock.json
+│   └── node_modules/        # (Ignored - Not pushed to GitHub)
+│
+├── .gitignore
+└── README.md
+```
+
