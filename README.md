@@ -74,6 +74,7 @@ Make sure you have installed:
 - Python 3.10+
 - Node.js (v18+ recommended)
 - Git
+- Docker
 - VS Code (Recommended)
 ---
 # Step 1: Clone the Repository
@@ -147,6 +148,16 @@ npm start
 ### Frontend Runs On:
 ```
 http://localhost:3000
+```
+---
+### Run with Docker
+From root directory:
+```bash
+docker-compose up --build
+```
+Stop containers:
+```bash
+docker-compose down
 ```
 ---
 
