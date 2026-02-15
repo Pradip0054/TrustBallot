@@ -1,3 +1,12 @@
+ # TrastBallot - Decentralized Blockchain Based Voting System 
+
+
+
+
+
+
+
+
 # Core Features
 - Secure User Authentication  
 - One-Person-One-Vote System  
