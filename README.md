@@ -66,4 +66,87 @@ TrustBallot/
 ├── .gitignore
 └── README.md
 ```
+# Getting Started (Installation Guide)
+Follow these steps to set up **TrustBallot** locally on your machine.
+---
+# Prerequisites
+Make sure you have installed:
+- Python 3.10+
+- Node.js (v18+ recommended)
+- Git
+- VS Code (Recommended)
+---
+# Step 1: Clone the Repository
+```bash
+git clone https://github.com/your-username/TrustBallot.git
+cd TrustBallot
+```
+---
+# Backend Setup (FastAPI)
+## Navigate to Backend Folder
+```bash
+cd backend
+```
+---
+## Create Virtual Environment
+```bash
+python -m venv venv
+```
+### Activate Virtual Environment
+### Windows
+```bash
+venv\Scripts\activate
+```
+### Mac/Linux
+```bash
+source venv/bin/activate
+```
+---
+## Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+Example `requirements.txt`:
+```
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+python-dotenv
+```
+---
+## Run Backend Server
+```bash
+uvicorn main:app --reload
+```
+### Backend Runs On:
+```
+http://127.0.0.1:8000
+```
+### API Documentation:
+```
+http://127.0.0.1:8000/docs
+```
+---
+# Frontend Setup (React)
+Open a new terminal.
+## Navigate to Frontend Folder
+```bash
+cd frontend
+```
+---
+##  Install Node Modules
+```bash
+npm install
+```
+---
+## Start React Application
+```bash
+npm start
+```
+### Frontend Runs On:
+```
+http://localhost:3000
+```
+---
 
