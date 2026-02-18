@@ -1,4 +1,4 @@
- # TrastBallot - Decentralized Blockchain Based Voting System 
+ # TrustBallot - Decentralized Blockchain Based Voting System 
 ## About The Project
 
 TrustBallot is a decentralized blockchain-based voting platform designed to ensure secure, anonymous, and tamper-proof elections. It leverages blockchain technology to create a transparent and trustworthy digital voting environment.
